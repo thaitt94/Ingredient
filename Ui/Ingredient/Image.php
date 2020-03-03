@@ -8,7 +8,7 @@ use Magento\Store\Model\StoreManagerInterface;
 
 class Image extends \Magento\Ui\Component\Listing\Columns\Column
 {
-    const IMAGEPATCH = 'http://magento233.local/pub/media/dtn/tmp/ingredient/';
+    const IMAGEPATCH = 'http://magento.local/pub/media/dtn/tmp/ingredient/';
     protected $storeManager;
 
     public function __construct(
@@ -17,7 +17,7 @@ class Image extends \Magento\Ui\Component\Listing\Columns\Column
         StoreManagerInterface $storeManager,
         array $components = [],
         array $data = []
-    ) 
+    )
     {
         $this->storeManager = $storeManager;
         parent::__construct($context, $uiComponentFactory, $components, $data);

@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 namespace DTN\Ingredient\Ui\Ingredient;
 
@@ -102,7 +102,7 @@ class DataProvider extends \Magento\Ui\DataProvider\ModifierPoolDataProvider
 
     public function getMediaUrl()
     {
-        return 'http://magento233.local/pub/media/dtn/tmp/ingredient/';
+        return 'http://magento.local/pub/media/dtn/tmp/ingredient/';
     }
 
 }
